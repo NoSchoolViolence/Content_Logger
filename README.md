@@ -2,8 +2,8 @@
 
 The Content Logger is a Major Feature of NSV's Lantern App. This repo is collection of work that has been done on this feature.
 
-- TRELLO BOARD: TBD
-- THE LANTERN WIREFRAME: TBD
+- Trello: TBD
+- The Lantern Wireframe: TBD
 
 ## NLP Library Load:
 

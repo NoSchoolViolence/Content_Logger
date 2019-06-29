@@ -2,8 +2,8 @@
 
 The Content Logger is a Major Feature of NSV's Lantern App. This repo is collection of work that has been done on this feature.
 
-TRELLO BOARD: TBD
-THE LANTERN WIREFRAME: TBD
+- TRELLO BOARD: TBD
+- THE LANTERN WIREFRAME: TBD
 
 ## NLP Library Load:
 
@@ -26,13 +26,13 @@ DISCLAIMER: Some of the code is mine; some of the code is not. Like many coders,
 ## Pulling & Processing PDFs:
 
 **Associated Folders:**
-  test_pdfs
-  lib
+  - test_pdfs
+  - lib
 **Associated Files:**
-  pattern.zip
-  Pulling and Processing PDFs .ipynb
-  KeywordExtract.csv
-  Requirements.txt
+  - pattern.zip
+  - Pulling and Processing PDFs .ipynb
+  - KeywordExtract.csv
+  - Requirements.txt
 
 **Associated Info:**
 
@@ -55,8 +55,8 @@ Note on pattern: You must include the decompressed version of this folder (direc
 ## PubMed:
 
 **Associated Folders:**
-  src
-  data
+  - src
+  - data
 
 **Associated Info:**
 

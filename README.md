@@ -1,14 +1,17 @@
 # Content_Logger
 
-The Content Logger is a Major Feature of NSV's Lantern App.
+The Content Logger is a Major Feature of NSV's Lantern App. This repo is collection of work that has been done on this feature.
 
-**NLP Library Load:**
+TRELLO BOARD: TBD
+THE LANTERN WIREFRAME: TBD
 
-Associated Files:
+## NLP Library Load:
+
+**Associated Files:**
 
 _nlp_init_nsv_.py
 
-Associated Info:
+**Associated Info:**
 
 Stop having to start an NLP project by typing in every library you most commonly use at the start of every Jupyter Notebook. By placing this file in your `lib` folder then calling it in the first line of your Jupyter Notebook with `%run lib/__nlp_init_nsv__.py`, you will load all of the common libraries with one command. 
 
@@ -20,18 +23,18 @@ This whole thing, and the other file in the repository for stats library loading
 
 DISCLAIMER: Some of the code is mine; some of the code is not. Like many coders, I borrow from others along with writing my own code. If you see code in here that is yours, just tell me and I will attribute it to you. My laziness in keeping track of other's code has gotten me to the point where I don't remember all of the places I have borrowed code. If you are interested and want to know more about the code, please ask.
 
-**Pulling & Processing PDFs:**
+## Pulling & Processing PDFs:
 
-Associated Folders:
+**Associated Folders:**
   test_pdfs
   lib
-Associated Files:
+**Associated Files:**
   pattern.zip
   Pulling and Processing PDFs .ipynb
   KeywordExtract.csv
   Requirements.txt
 
-Associated Info:
+**Associated Info:**
 
 This short program will walk through a directory pulling each file that ends in .pdf. It then cleans the text and returns each sentence that contains one of the keywords in which we are interested. 
 
@@ -49,22 +52,22 @@ It is not the most elegant code, or the most refined, but it works just fine for
 
 Note on pattern: You must include the decompressed version of this folder (directory) in the same directory as the notebook for Pattern to work. If you are not familiar with Pattern, this is just a quirk that it has. This is for Python 3.x. Please see the Pattern website for the Python 2.6 version of Pattern. 
 
-**PubMed:**
+## PubMed:
 
-Associated Folders:
+**Associated Folders:**
   src
   data
 
-Associated Info:
+**Associated Info:**
 
 This repository searches pubmed for key search terms related to school violence.
 Search term and article ids, and article information are deposited into a sqlite database
 that prevents redundancies and entry and makes it easy to query.
 
-Note:  Search term quality can potentially be improved by ensuring that
+**Note:** Search term quality can potentially be improved by ensuring that
 school is added to every search term so that it is not focused on general behaviors.
 
-TO DO:
+**TO DO:**
 
 1. Implement a crontab to run code once a week to search and update database (via Azure?)
 2. Develop model for data to identify key terms related to school violence.

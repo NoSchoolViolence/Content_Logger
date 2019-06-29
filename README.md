@@ -9,7 +9,7 @@ The Content Logger is a Major Feature of NSV's Lantern App. This repo is collect
 
 **Associated Files:**
 
-_nlp_init_nsv_.py
+- _nlp_init_nsv_.py
 
 **Associated Info:**
 
